@@ -1,0 +1,1392 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-04T05:37:01.686Z",
+        "line": 18,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 741644400,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1993500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"maylan\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylan\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1998200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"may1@gmail.com\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"may1@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3986500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"akunmay1\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunmay1\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20928900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 299542000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"can regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"can regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.026Z",
+        "line": 19,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 4986500,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1992900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1993500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2133300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"maylan\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylan\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"may1@gmail.com\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"may1@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1006100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"akunmay1\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunmay1\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2393400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5988100,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"cant regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.109Z",
+        "line": 20,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 4986600,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2497300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1993600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2001100,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.168Z",
+        "line": 21,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 1993200,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2617100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1993600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"may1@gmail.com\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"may1@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2990200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"akunmay1\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunmay1\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"cant regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.219Z",
+        "line": 22,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 3986500,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1993100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2989400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2989900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"akunmay1\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunmay1\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"cant regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.281Z",
+        "line": 23,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 2990400,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"maylan\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylan\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3229700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"akunmay1\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunmay1\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"cant regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.331Z",
+        "line": 24,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 2990400,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"maylan\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylan\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2120900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109144600,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"cant regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.487Z",
+        "line": 25,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 2990400,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1993500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"maylan\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylan\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"may1@gmail.com\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"may1@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"cant regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.531Z",
+        "line": 26,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 1992200,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2990100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"maylan\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylan\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"cant regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-04T05:37:05.584Z",
+        "line": 27,
+        "name": "New Register",
+        "description": "",
+        "id": "register;new-register;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)\r\n\tat ✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)\r\n",
+              "duration": 3986900,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on alta shop",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnAltaShop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1993500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click sign in button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click register link",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3987100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I input \"\" fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputFullname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I input \"may1@gmail.com\" new email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"may1@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I input \"\" new password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iInputNewPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistrationStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1992900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I get \"cant regis\" result regis",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.RegistrationStep.iGetResultRegis(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  As a user\n  I want register\n  So I can register",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

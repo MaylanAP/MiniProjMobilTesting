@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="10" failures="0" name="Register" skipped="0" tests="10" time="3.81" timestamp="2022-11-04 12:37:01"><testcase name="New Register"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.LoginPage.seeHeadProduct(LoginPage.java:21)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.LoginStep.iAmOnAltaShop(LoginStep.java:15)&#13;
+✽.I am on alta shop(file:///D:/TIC/Kampus%20Merdeka/MSIB/Studi%20Independen/Alterra/MiniProject/MobileTesting/sample-mobile-automation/src/test/resources/features/register.feature:8)&#13;
+</system-err></testcase></testsuite>
