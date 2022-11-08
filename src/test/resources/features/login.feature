@@ -14,11 +14,11 @@ Feature: Login
     Examples:
       | email                 | password       | result        |
       | maylananggi@gmail.com | maylanqe22     | can login     |
-      | maylananggi@gmail.com | passwordmaylan | error message |
+      | maylananggi@gmail.com | maylan         | error message |
       | akumaylan@gmail.com   | maylanqe22     | error message |
-      | akumaylan@gmail.com   | passwordmaylan | error message |
-      |                       |                | error message |
+      | akumaylan@gmail.com   | maylan         | error message |
+      |                       |                | error email   |
       |                       | maylanqe22     | error email   |
-      |                       | passwordmaylan | error email   |
+      |                       | maylan         | error email   |
       | maylananggi@gmail.com |                | error pass    |
       | akumaylan@gmail.com   |                | error pass    |

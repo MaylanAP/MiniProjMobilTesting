@@ -7,10 +7,13 @@ import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.SearchContext;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
 import static com.example.app.drivers.AndroidDriverInit.driver;
 
@@ -68,4 +71,6 @@ public class BasePageObject {
             e.printStackTrace();
         }
     }
+
+
 }

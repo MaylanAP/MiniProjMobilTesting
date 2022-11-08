@@ -1,4 +1,6 @@
 com\example\app\drivers\AndroidDriverInit.class
 com\example\app\base\BasePageObject.class
 com\example\app\pages\LoginPage.class
+com\example\app\pages\LogoutPage.class
 com\example\app\pages\RegistrationPage.class
+com\example\app\pages\BeliPage.class

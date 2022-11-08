@@ -1,11 +1,12 @@
 package com.example.app.pages;
 
+import com.example.app.base.BasePageObject;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
 import static com.example.app.drivers.AndroidDriverInit.driver;
 
-public class LoginPage {
+public class LoginPage extends BasePageObject {
 
     private By productHead = MobileBy.AccessibilityId("Products");
     private By signIn = By.xpath("//android.view.View[1]/android.widget.Button");
@@ -15,43 +16,37 @@ public class LoginPage {
     private By succLogin = By.xpath("//android.view.View[1]/android.widget.Button");
     private By errorEmail = MobileBy.AccessibilityId("email can not empty");
     private By errorPass = MobileBy.AccessibilityId("password can not empty");
-    private By errorMess = MobileBy.AccessibilityId("Email atau password tidak valid.");
+    private By errorMess = By.xpath("//android.view.View[@content-desc='Email atau password tidak valid.']");
 
     public void seeHeadProduct(){
-        AndroidElement headProd = driver.findElement(productHead);
-        headProd.isDisplayed();
+        isDisplayed(productHead);
     }
     public void clckSignIn(){
-        AndroidElement clckToLog = driver.findElement(signIn);
-        clckToLog.click();
+        click(signIn);
     }
     public void inputEmail(String email){
-        AndroidElement inEmail = driver.findElement(emailPath);
-        inEmail.sendKeys(email);
+        click(emailPath);
+        inputText(emailPath,email);
     }
     public void inputPass(String password){
-        AndroidElement inPass = driver.findElement(passPath);
-        inPass.sendKeys(password);
+        click(passPath);
+        inputText(passPath,password);
     }
     public void clckLogButton(){
-        AndroidElement logButt = driver.findElement(loginButton);
-        logButt.click();
+        click(loginButton);
     }
     public void succesLogin(){
-        AndroidElement canLog = driver.findElement(succLogin);
-        canLog.isDisplayed();
+        isDisplayed(succLogin);
     }
     public void emailError(){
-        AndroidElement errEm = driver.findElement(errorEmail);
-        errEm.isDisplayed();
+        isDisplayed(errorEmail);
     }
     public void passError(){
-        AndroidElement errPass = driver.findElement(errorPass);
-        errPass.isDisplayed();
+        isDisplayed(errorPass);
     }
-    public void messError(){
-        AndroidElement errMess = driver.findElement(errorMess);
-        errMess.isDisplayed();
+    public void messError() throws InterruptedException {
+        Thread.sleep(2000);
+        isDisplayed(errorMess);
     }
 
 }

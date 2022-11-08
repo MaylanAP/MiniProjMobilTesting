@@ -17,12 +17,12 @@ Feature: Register
       | fullname  | email   | password  | result |
       | maylan    | may1@gmail.com  | akunmay1  | can regis   |
       | maylan    | may1@gmail.com  | akunmay1  | cant regis  |
-      |           |                 |           |             |
-      |           | may1@gmail.com  | akunmay1  | cant regis  |
-      |           |                 | akunmay1  | cant regis  |
-      | maylan    |                 | akunmay1  | cant regis  |
-      | maylan    |                 |           | cant regis  |
-      | maylan    | may1@gmail.com  |           | cant regis  |
-      | maylan    |                 |           | cant regis  |
-      |           | may1@gmail.com  |           | cant regis  |
+      |           |                 |           | error name  |
+      |           | may1@gmail.com  | akunmay1  | error name  |
+      |           |                 | akunmay1  | cant name   |
+      | maylan    |                 | akunmay1  | cant email  |
+      | maylan    |                 |           | cant email  |
+      | maylan    | may1@gmail.com  |           | cant pass   |
+      | maylan    |                 |           | cant pass   |
+      |           | may1@gmail.com  |           | cant pass   |
 

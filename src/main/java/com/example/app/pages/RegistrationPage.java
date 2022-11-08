@@ -1,13 +1,10 @@
 package com.example.app.pages;
 
+import com.example.app.base.BasePageObject;
 import io.appium.java_client.MobileBy;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
 
-import static com.example.app.drivers.AndroidDriverInit.driver;
-
-public class RegistrationPage {
+public class RegistrationPage extends BasePageObject {
 
     private By regisLink = MobileBy.AccessibilityId("Register");
     private By fullNameIn = By.xpath("//android.widget.EditText[1]");
@@ -16,34 +13,43 @@ public class RegistrationPage {
     private By regisButton = By.xpath("//android.widget.Button[@content-desc=\"Register\"]");
     private By successRegis = By.xpath("//android.view.View[1]/android.widget.Button");
     private By errorRegis = MobileBy.AccessibilityId("Gagal :(");
+    private By errName = MobileBy.AccessibilityId("fullname can not empty");
+    private By errEmail = MobileBy.AccessibilityId("email can not empty");
+    private By errPass = MobileBy.AccessibilityId("password can not empty");
 
     public void clckRegis(){
-        AndroidElement clckRegisLink = driver.findElement(regisLink);
-        clckRegisLink.click();
+        click(regisLink);
     }
     public void inFullname(String fullname){
-        AndroidElement inName = driver.findElement(fullNameIn);
-        inName.sendKeys(fullname);
+        click(fullNameIn);
+        inputText(fullNameIn,fullname);
     }
     public void inEmailRegis(String email){
-        AndroidElement inEmRegis = driver.findElement(emailIn);
-        inEmRegis.sendKeys(email);
+        click(emailIn);
+        inputText(emailIn,email);
     }
     public void inPassRegis(String password){
-        AndroidElement inPassRegis = driver.findElement(passIn);
-        inPassRegis.sendKeys(password);
+        click(passIn);
+        inputText(passIn,password);
     }
     public void clckRegisButton(){
-        AndroidElement buttonRegis = driver.findElement(regisButton);
-        buttonRegis.click();
+        click(regisButton);
     }
     public void canRegis(){
-        AndroidElement canRegis = driver.findElement(successRegis);
-        canRegis.isDisplayed();
+        isDisplayed(successRegis);
     }
     public void cantRegis(){
-        AndroidElement cantRegis = driver.findElement(errorRegis);
-        cantRegis.isDisplayed();
+        isDisplayed(errorRegis);
     }
+    public void setErrName(){
+        isDisplayed(errName);
+    }
+    public void setErrEmail(){
+        isDisplayed(errEmail);
+    }
+    public void setErrPass(){
+        isDisplayed(errPass);
+    }
+
 
 }

@@ -35,11 +35,22 @@ public class RegistrationStep {
 
     @Then("I get {string} result regis")
     public void iGetResultRegis(String result) {
-        if (result.equals("can regis")){
-            registrationPage.canRegis();
-        }
-        else if (result.equals("cant regis")){
-            registrationPage.cantRegis();
+        switch (result) {
+            case "can regis":
+                registrationPage.canRegis();
+                break;
+            case "cant regis":
+                registrationPage.cantRegis();
+                break;
+            case "error name":
+                registrationPage.setErrName();
+                break;
+            case "error email":
+                registrationPage.setErrEmail();
+                break;
+            case "error pass":
+                registrationPage.setErrPass();
+                break;
         }
     }
 }

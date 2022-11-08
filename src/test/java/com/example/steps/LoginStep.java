@@ -36,7 +36,7 @@ public class LoginStep {
     }
 
     @Then("I get {string} result")
-    public void iGetResult(String result) {
+    public void iGetResult(String result) throws InterruptedException {
         switch (result) {
             case "can login":
                 loginPage.succesLogin();
