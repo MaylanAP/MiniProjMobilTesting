@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.acceptancetests.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 84.34 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
-Button Beli.Beli one product  Time elapsed: 82.696 s  <<< ERROR!
-org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.110.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\TIC\Kampus Merdeka\MSIB\..., appPackage: com.example.frontend_mobile, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\MSIB\..., automationName: UIAutomator2, platformName: android, platformVersion: 12}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: 942b10a6-845b-411e-81a9-0fe46164150f
-*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Sony PS5").instance(0))}
-
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 597.135 s - in com.example.acceptancetests.AcceptanceTestSuite

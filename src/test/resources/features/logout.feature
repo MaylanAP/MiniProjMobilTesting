@@ -7,7 +7,6 @@ Feature: Logout
   Scenario Outline: Logout
     Given I am on alta shop
     And I click sign in button
-    And I click sign in button
     And I input "<email>" email
     And I input "<password>" password
     And I click login button
